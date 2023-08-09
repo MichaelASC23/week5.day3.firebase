@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase Project</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+    <script defer src="init-firebase.js"></script>
+    <script defer src="main.js" ></script>
+</head>
+<body>
+    <div id="chatbox-container"></div>
+        <h1 i>Image Generator</h1>
+        <div id="all-messages" >
+        
+        </div>
+        <!-- HEH What are we creating  -->
+        <!-- View Blogs -->
+        <form>
+            <input type="text" placeholder="Enter Image Address" id="image-input">
+            <button id ="submit">Submit</button>
+            <button id="randomImg">Click Random Image</button>
+        </form>
+
+        <!--Okay, just try it and if it doesn't work we can just make it like the chat like the code along 
+        ,but instead just add images and random images  -->
+        <!-- Create Blogs -->
+
+        <form id="user_blog">
+            <input type="text" placeholder = "Enter Name Of Blog" id="user_title">
+            <!-- Feel free to change the id's, preferably the sub heading cause it's kind of long -->
+            <input type="text" placeholder = "Sub-heading" id="user_sub-heading">
+            <input type="text" placeholder = "Description Of Blog" id="user_text">
+            
+        </form>
+    </div> 
+</body>
+</html>
+

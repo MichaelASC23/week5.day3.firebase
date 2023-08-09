@@ -12,18 +12,29 @@
 </head>
 <body>
     <div id="chatbox-container"></div>
-        <h1 i>Image Generator</h1>
-        <div id="all-messages" >
-        
-        </div>
-        <!-- HEH What are we creating  -->
-        <!-- View Blogs -->
-        <form>
-            <input type="text" placeholder="Enter Image Address" id="image-input">
-            <button id ="submit">Submit</button>
-            <button id="randomImg">Click Random Image</button>
-        </form>
+        <h1 id="title">Image Generator</h1>        
 
+        <!-- @NOTE this is where we'll append messages -->
+        <div id="all-messages">
+            
+        </div>
+
+        <div id="url-container">
+            <form>
+                <!-- @NOTE this input has an id #username -->
+                <div class="input-container">
+                    <label>URL:</label>
+                    <input
+                        type="text"
+                        placeholder="Paste image address"
+                        id="URL"/>
+                    <button id="send-btn">Send</button>
+                    
+                </div>
+                
+            </form>
+
+            
         <!--Okay, just try it and if it doesn't work we can just make it like the chat like the code along 
         ,but instead just add images and random images  -->
         <!-- Create Blogs -->
